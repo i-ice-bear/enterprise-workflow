@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  transition: all 0.3s ease;
+  padding: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+#main-container {
+  height: auto;
+}
+#text-container-set {
+  padding: 10em 5em;
+  justify-content: center;
+}
+#main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  justify-content: center;
+  transform: translateX(2%);
+  -webkit-transform: translateX(2%);
+  -moz-transform: translateX(2%);
+  -ms-transform: translateX(2%);
+  -o-transform: translateX(2%);
+}
+#imagecontainer{
+  height: 100vh;
+  align-items:center;
+
+}
+#main-container{
+  height: auto;
+}
+/* button section images set */
+
+#main-container-button {
+  box-shadow: none;
+  color: black;
+  text-decoration: none;
+  text-transform: none;
+  border: 1px solid #212529;
+  padding: 5px 35px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 400;
+}
+#main-container-button:hover {
+  font-weight: 400;
+  background: #212529;
+  color: white;
+  border: none;
+}
+#view-arrow-container-button{
+  color:black;
+  margin-left: 5%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 1px;
+  border: none;
+}
+#view-arrow-container-button .circle svg{
+font-size: 55px;
+}
+#view-arrow-container-button #arrow {
+  transform:translateX(1vw);
+  -webkit-transform:translateX(1vw);
+  -moz-transform:translateX(1vw);
+  -ms-transform:translateX(1vw);
+  -o-transform:translateX(1vw);
+}
+#view-arrow-container-button:hover #arrow {
+  transform:translateX(4vw);
+  -webkit-transform:translateX(4vw);
+  -moz-transform:translateX(4vw);
+  -ms-transform:translateX(4vw);
+  -o-transform:translateX(4vw);
+}
+#view-arrow-container-button:hover .circle{
+  transform:translateX(-8vw);
+  -webkit-transform:translateX(-8vw);
+  -moz-transform:translateX(-8vw);
+  -ms-transform:translateX(-8vw);
+  -o-transform:translateX(-8vw);
+}
+
+/* n button container onset screen ends here */
+.accrossing {
+  width: 25em;
+  z-index: -1;
+  height: 15em;
+  background:#21252949;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.accrossing2 {
+  width: 25em;
+  z-index: -1;
+  height: 15em;
+  background:#21252949;
+  position: absolute;
+  top: 80%;
+  left: 0;
+}
+
+/* ---------------------------------------------
+  section 2 container styling (our services)
+  --------------------------------------------- */
+#our-service-container{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  #main-image{
+    width: 35rem;
+  }
+}

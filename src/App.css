@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+
+*{
+  margin: 0;
+  padding:0;
+  font-family: "Quicksand";
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+body{
+  overflow-x: hidden;
+}
