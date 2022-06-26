@@ -151,14 +151,14 @@ export default function Navbar(props) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/team"
+                <a                  
+                href="https://github.com/i-ice-bear/enterprise-workflow"
                   className={
                     navbarForm ? `nav-link active` : ` nav-link active`
                   }
                 >
-                  Team
-                </Link>
+                  View Code
+                </a>
               </li>
               <li className="nav-item">
                 <Button
@@ -259,7 +259,7 @@ export default function Navbar(props) {
                         : `text-dark active nav-link`
                     }
                   >
-                    Team
+                    View Code
                   </a>
                 </li>
                 <li className="nav-item">
